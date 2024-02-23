@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXAM1- WEB DEVELOPING WINTER 2024</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+<div class="form-container">
+    <div class="svg-images-container">
+        <img src="address.svg" alt="Address Icon" class="svg-image">
+        <p><strong>Address</strong></p>
+        <p style="color: gray;">address here</p>
+        <img src="phone.svg" alt="Phone Icon" class="svg-image">
+        <p><strong>Phone</strong></p>
+        <p style="color: gray;">515153167</p>
+        <img src="email.svg" alt="Email Icon" class="svg-image">
+        <p><strong>Email</strong></p>
+        <p style="color: gray;">something@gmail.com</p>
+        <div class="svg-images-container">
+             <a href="https://www.coursera.org/articles/web-developer" target="_blank"> 
+        <img src="svg.svg" alt="web developer" class="svg-image"> 
+            </a>
+        </div>
+    </div>
+    <div class="form-content"> 
+        <h2 class="form-title">EXAM1- WEB DEVELOPING WINTER 2024</h2>
+        <label for="city" class="form-label">SELECT CITY</label>
+        <select name="city" id="city" class="form-select">
+            <option value="">Select Your City</option>
+        </select>
+        <label for="date" class="form-date-label">SELECT DATE AND TIME:</label>
+        <div class="form-date">
+            <input type="date" id="date" name="date" class="form-input">
+            <input type="time" id="time" name="time" class="form-input" min="08:00" max="20:00"> 
+        </div>
+        <p>(Note: Visiting hours are 8am to 8pm)</p>
+      
+
+      <div class="personal-details-container"> 
+        <h3 class="form-title">PERSONAL DETAILS</h3> 
+        <input type="text" id="name" name="name" class="form-input"  placeholder="Full Name*"> 
+        <input type="tel" id="mobile" name="mobile" class="form-input"  placeholder="Mobile Number*">
+        <input type="email" id="email" name="email" class="form-input" placeholder="Email (optional)">
+        <textarea name="message" id="message" class="form-textarea" placeholder="Type text message"></textarea>
+      </div>
+
+      <button type="submit" class="form-button">Submit</button>
+    </div>
+  </div>
+</body>
+</html>
